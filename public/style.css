@@ -1,0 +1,43 @@
+body{
+    background-color: #fafafa;
+}
+
+.container {
+    background-color: #fff;
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    min-height: 200px;
+    background-image: url(images/jeff-brown-246388.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+}
+
+header div {
+    padding-left: 50px;   
+}
+
+header h2 {
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: -20px;
+}
+
+header h1 {
+    font-size: 100px;
+    color: #fff;
+}
+
+header h4 {
+    margin-left: 18px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 100;
+}
+
+img {
+    height: 100%;
+}
