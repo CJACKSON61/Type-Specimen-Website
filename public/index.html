@@ -11,6 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="jquery.row-grid.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-stylesheet.css" type="text/css" charset="utf-8" />
     <script>
         $(document).ready(function() {
             var options = {minMargin: 5, maxMargin: 25, itemSelector: ".item", firstItemClass: "first-item"};
@@ -44,8 +46,8 @@
     </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div class="container">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#top">Top Story</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOpen" aria-controls="navbarOpen" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -89,12 +91,11 @@
         <section class="container-fluid" id="content-two">
             <div class="row">
                 <div class="col col-lg-4">
-                    
+                    <img src="images/Aa.svg"> 
                 </div>
                 <div class="col col-lg-8">
                     <h2>Unique Features</h2>
-                    <p>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
-                    <p>&Auml;&auml; &Atilde;&atilde; &Aring;&aring; &Agrave;&agrave; &Acirc;&acirc; &Aacute;&aacute; &Euml;&euml; &Egrave;&egrave; &Ecirc;&ecirc; 1 2 3 4 5 6 7 8 9 0 . , " ' [] {} () &#33; &#35; &#64; &amp;</p>
+                    <img src="images/special-characters.svg">
                     <p></p>
                     <p></p>
                 </div>
@@ -105,12 +106,13 @@
             <div class="row">
                 <h2 class="col col-lg-12">Architecture</h2>
                 <div class="col col-lg-12">
-                    <img src="images/anatomy_942_better.gif">
+                    <img src="images/architecture.svg">
                 </div>
             </div>
         </section>
         <section class="container-fluid" id="content-four">
             <div class="row">
+                <h2 class="col col-lg-12">Top Story In Use</h2>
                <div class="image-container col col-lg-12">
                    <div class="item col col-lg-6">
                         <img src="images/photos/anatomy_942_better.gif">
@@ -138,14 +140,23 @@
         </section>
         <footer class="container-fluid">
             <div class="row">
-                <div class="col col-lg-4">
-                    <h4>Top Story</h4>
+                <div class="col col-lg-3">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/codyjacksondesigner/"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                        <li><a href="http://cjdesigns.co"><i class="fa fa-lg fa-home"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col col-lg-5">
+                    <ul>
+                        <li><a href="#top">Back to Top</a></li>
+                        <li><a href="#content-one">About</a></li>
+                        <li><a href="#content-two">Features</a></li>
+                        <li><a href="#content-three">Architecture</a></li>
+                        <li><a href="#content-four">Uses</a></li>
+                    </ul>
                 </div>
                 <div class="col col-lg-4">
-                    <h4>Footer Nav</h4>
-                </div>
-                <div class="col col-lg-4">
-                    <h4>All Rights Reserved</h4>
+                    <h6>&copy; 2017 Cody Jackson. All Rights Reserved</h6>
                 </div>
             </div>
         </footer>
