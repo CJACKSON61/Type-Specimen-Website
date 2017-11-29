@@ -10,14 +10,10 @@
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="jquery.row-grid.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="font-stylesheet.css" type="text/css" charset="utf-8" />
     <script>
         $(document).ready(function() {
-            var options = {minMargin: 5, maxMargin: 25, itemSelector: ".item", firstItemClass: "first-item"};
-            $(".image-container").rowGrid(options);
-            
             $(".navbar a").on('click', function(event) {
 
               // Make sure this.hash has a value before overriding default behavior
@@ -64,6 +60,9 @@
                         <a class="nav-link" href="#content-three">Architecture</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#content-five">Designs</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#content-four">Uses</a>
                     </li>
                 </ul>
@@ -82,71 +81,63 @@
         </header>
         <section class="container-fluid" id="content-one">
             <div class="row">
-                    <h2 class="col col-lg-4">Top Story's...Story</h2>
+                    <h2 class="col-sm-4">Top Story&#8217;s...Story</h2>
             </div>
             <div class="row">
-                    <p class="col col-lg-4">Top Story was inspired by a book series written by Jim Butcher which is set in modern day Chicago, but draws heavily on Chicago's 1930's gangster heritage. Top Story is a grotesque sans-serif typeface with a low x-height and tall capitals which emphasize the height difference and imitate Chicago's skyline. The font has a solid, masculine structure, yet a slight slant to the capitals give it a dangerous air. </p>
+                    <p class="col-sm-4">Top Story was inspired by a book series written by Jim Butcher which is set in modern day Chicago, but draws heavily on Chicago's 1930's gangster heritage. Top Story is a grotesque sans-serif typeface with a low x-height and tall capitals which emphasize the height difference and imitate Chicago's skyline. The font has a solid, masculine structure, yet a slight slant to the capitals give it a dangerous air. </p>
             </div>
         </section>
         <section class="container-fluid" id="content-two">
             <div class="row">
-                <div class="col col-lg-4">
+                <div class="col-sm-4">
                     <img src="images/Aa.svg"> 
                 </div>
-                <div class="col col-lg-8">
+                <div class="col-sm-8">
                     <h2>Unique Features</h2>
-                    <img src="images/special-characters.svg">
-                    <p></p>
-                    <p></p>
+                    <img src="images/special-characters.svg" class="col-sm-12">
                 </div>
             </div>
                 
         </section>
         <section class="container-fluid" id="content-three">
             <div class="row">
-                <h2 class="col col-lg-12">Architecture</h2>
-                <div class="col col-lg-12">
+                <h2 class="col-sm-12">Architecture</h2>
+                <div class="col-sm-12">
                     <img src="images/architecture.svg">
                 </div>
             </div>
         </section>
+        <section class="container-fluid" id="content-five">
+            <div class="row">
+                <h2 class="col-sm-12">Flat Designs</h2>
+               <div class="col-sm-12">
+                    <img src="images/photos/Flat%20Designs-01.jpg" class="col-sm-7">
+                    <img src="images/photos/Flat%20Designs-02.jpg" class="col-sm-5">
+                    <img src="images/photos/Flat%20Designs-03.jpg" class="col-sm-4">
+                    <img src="images/photos/Flat%20Designs-04.jpg" class="col-sm-8">
+                </div> 
+            </div>
+        </section>
         <section class="container-fluid" id="content-four">
             <div class="row">
-                <h2 class="col col-lg-12">Top Story In Use</h2>
-               <div class="image-container col col-lg-12">
-                   <div class="item col col-lg-6">
-                        <img src="images/photos/anatomy_942_better.gif">
-                    </div>
-                   <div class="item col col-lg-6">
-                        <img src="images/photos/jeff-brown-246388.jpg">
-                    </div>
-                   <div class="item col col-lg-6">
-                        <img src="images/photos/mike-dennler-173199.jpg">
-                    </div>
-                   <div class="item col col-lg-8">
-                   <img src="images/photos/sawyer-bengtson-256286.jpg">
-                    </div>
-                   <div class="item col col-lg-10">
-                   <img src="images/photos/jesse-collins-92501.jpg">
-                    </div>
-                   <div class="item col col-lg-8">
-                   <img src="images/photos/jonas-jacobsson-411039.jpg">
-                    </div>
-                   <div class="item col col-lg-12">
-                   <img src="images/photos/zia-king-364267.jpg">
-                    </div>
+                <h2 class="col-sm-12">Real-World Uses</h2>
+               <div class="col-sm-12">
+                    <img src="images/photos/Book%20Cover.jpg" class="col-sm-7">
+                    <img src="images/photos/Signage.jpg" class="col-sm-5">
+                    <img src="images/photos/Menu.jpg" class="col-sm-8">
+                   <img src="images/photos/Tower.jpg" class="col-sm-4">
                 </div> 
             </div>
         </section>
         <footer class="container-fluid">
             <div class="row">
-                <div class="col col-lg-3">
+                <div class="col-sm-3">
                     <ul>
                         <li><a href="https://www.linkedin.com/in/codyjacksondesigner/"><i class="fa fa-lg fa-linkedin"></i></a></li>
                         <li><a href="http://cjdesigns.co"><i class="fa fa-lg fa-home"></i></a></li>
                     </ul>
                 </div>
-                <div class="col col-lg-5">
+                <div class="col-sm-5">
                     <ul>
                         <li><a href="#top">Back to Top</a></li>
                         <li><a href="#content-one">About</a></li>
@@ -155,7 +146,7 @@
                         <li><a href="#content-four">Uses</a></li>
                     </ul>
                 </div>
-                <div class="col col-lg-4">
+                <div class="col-sm-4">
                     <h6>&copy; 2017 Cody Jackson. All Rights Reserved</h6>
                 </div>
             </div>
