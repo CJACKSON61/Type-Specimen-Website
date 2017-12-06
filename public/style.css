@@ -23,7 +23,7 @@ nav a:hover {
 }
 
 header {
-    padding-top: 10%;
+    padding-top: 20%;
     padding-bottom: 30%;
     min-height: 200px;
     background-image: url(images/jeff-brown-246388.jpg);
@@ -49,6 +49,7 @@ header h1 {
 }
 
 header h4 {
+    margin-top: 20px;
     margin-left: 18px;
     font-size: 18px;
     color: #fff;
@@ -61,7 +62,6 @@ header h4 {
     background-position: center;
     padding-bottom: 25%;
     padding-top: 5%;
-    width: 80%;
 }
 
 #content-one h2 {
@@ -78,7 +78,6 @@ header h4 {
     background-color: rgba(90, 67, 86, 1);
     padding-bottom: 3%;
     padding-top: 3%;
-    width: 80%;
 }
 
 #content-two div div:last-child {
@@ -106,7 +105,6 @@ header h4 {
 #content-three {
     padding-top: 5%;
     padding-bottom: 5%;
-    width: 80%;
     background-color: #fff;
 }
 
@@ -130,7 +128,6 @@ header h4 {
 }
 
 #content-five {
-    width:  80%;
     background-color: #ffffff;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -172,4 +169,30 @@ footer ul li a {
 
 footer ul li a:hover {
     color: #499DF5;
+}
+
+@media screen and (min-width: 576px) {
+    header {
+         padding-top: 10%;
+    }
+    
+    header h4 {
+        margin-top: 0px;
+    }
+    
+    #content-one {
+        width: 80%;
+    }
+    #content-two {
+        width: 80%;
+    }
+    #content-three {
+        width: 80%;
+    }
+    /*#content-four {
+        width: 80%;
+    }*/
+    #content-five {
+        width: 80%;
+    }
 }
